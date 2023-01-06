@@ -1,13 +1,13 @@
-* {
+*, *::after, *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
 }
 
 body {
   width: 100vw;
   overflow-x: hidden;
+  font-family: Montserrat, sans-serif;
 }
 
 .main-content {
@@ -115,4 +115,4 @@ body {
 }
 .gallery .post:nth-child(4) {
   grid-row: span 2;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,60 @@
+// user intro
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    .user-info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .img {
+        width: 110px;
+        height: 110px;
+        margin-bottom: size(0.8);
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 16px;
+          object-fit: cover;
+        }
+      }
+      .user-name {
+        font-size: size(1.5);
+        color: color(dark-gray);
+        padding-bottom: size(0.5);
+      }
+      .location {
+        color: color(neutral-gray);
+        font-size: size(0.8);
+      }
+    }
+  
+    .group {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: size(1);
+      margin-top: size(1.5);
+      div {
+        width: 100px;
+        background: color(neutral-gray);
+        padding: size(1);
+        border-radius: $radius;
+        text-align: center;
+        line-height: size(1.5);
+      }
+      .count {
+        font-size: 1.2rem;
+        color: color(light-gray);
+        font-weight: 600;
+      }
+      .posts {
+        color: color(dark);
+        font-size: size(0.8);
+      }
+    }
+  }
+  
+  
