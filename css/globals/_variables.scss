@@ -14,23 +14,10 @@ $sizes: (
   1.2: 1.2rem,
   3: 3rem,
 );
-// color function
-@function color($name) {
-  @return map-get($colors, $name);
-}
-// size function
-@function size($num) {
-  @return map-get($sizes, $num);
-}
 // other variables
 $montserrat: Montserrat, sans-serif;
 $radius: 12px;
 $grid-span: span 2;
 
-// mixin
+// vairiables for mixin
 $mobile: 668px;
-@mixin mobile {
-  @media (max-width: #{$mobile}) {
-    @content;
-  }
-}
